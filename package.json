@@ -1,0 +1,23 @@
+{
+  "name": "nyc-bot-ts",
+  "version": "0.0.0",
+  "description": "NYC Discord Bot",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyc-discord/nyc-bot-ts.git"
+  },
+  "author": "Ariel Saldana (ariel@unreal.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyc-discord/nyc-bot-ts/issues"
+  },
+  "homepage": "https://github.com/nyc-discord/nyc-bot-ts#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
