@@ -1,11 +1,12 @@
 {
     "env": {
-        "browser": false,
+        "browser": true,
         "es2021": true
     },
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "eslint-config-prettier"
     ],
     "overrides": [
     ],
@@ -15,8 +16,18 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "prettier"
     ],
     "rules": {
+        "prettier/prettier" : "error"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["src"],
+                "extensions": [".ts"]
+            }
+        }
     }
 }
